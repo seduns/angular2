@@ -1,0 +1,37 @@
+{
+  "id": "5330b73e-80e2-48a6-b8d6-8581385fa1f8",
+  "template": "app-nolayers",
+  "versions": {
+    "AbpFramework": "8.3.0",
+    "AbpCommercial": "8.3.0",
+    "AbpStudio": "0.8.1"
+  },
+  "modules": {
+    "TodoApp": {
+      "path": "TodoApp.abpmdl"
+    }
+  },
+  "runProfiles": {
+    "Default": {
+      "path": "etc/run-profiles/Default.abprun.json"
+    }
+  },
+  "options": {
+    "httpRequests": {
+      "ignoredUrls": [
+        "^/metrics$"
+      ]
+    }
+  },
+  "creatingStudioConfiguration": {
+    "template": "app-nolayers",
+    "createdAbpStudioVersion": "0.8.1",
+    "uiFramework": "angular",
+    "databaseProvider": "mongodb",
+    "theme": "leptonx-lite",
+    "themeStyle": "",
+    "progressiveWebApp": "",
+    "publicWebsite": "",
+    "socialLogin": ""
+  }
+}
